@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/emoji-mart/css/emoji-mart.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Another Radio Online/title</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>ANOTHER TIME RADIO ONLINE</h1>
+            <audio controls>
+                <source src="https://cp9.serverse.com/proxy/another/stream" type="audio/mpeg">
+            </audio>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="review">
+            <h2>Reseña de la página</h2>
+            <p>Another Time Radio Show, es nuestro cable a tierra, donde podremos<br>
+                escuchar la mejero musica de todos los tiempos, 70, 80, 90 y toda la musica actual <br>
+                <br>
+                nuestro musicalizaron, un grande de la musica en formosa con mas de 35 años en el rubro!!
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="video-container">
+        <div class="video-wrapper">
+            <div class="fb-video" data-href="https://www.facebook.com/radioanothertime.kiry/posts/pfbid02MkDu1f3Vmc1mbhKs6YET57KYsyx6KSAGnDynSVb5R5iSBPFm8SMMy5m74JTbEshjl"
+                data-width="640" data-show-text="false"></div>
+        </div>
+    </div>
+    <aside class="chat">
+        <h3>Chat en línea</h3>
+        <div id="chat-messages"></div>
+        <form id="chat-form">
+            <input type="text" id="name-input" placeholder="Nombre" required>
+            <input type="text" id="message-input" placeholder="Mensaje" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </aside>
+
+    <script src="https://unpkg.com/emoji-mart/dist/umd/emoji-mart.js"></script>
+    <script src="chat.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+        nonce="TU_NONCE"></script>
+
+</body>
+
+</html>
